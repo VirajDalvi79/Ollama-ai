@@ -8,12 +8,14 @@ A voice-controlled AI assistant built using Python, Vosk speech recognition, and
 - 🔊 Text-to-speech output
 - 🖥 Runs locally
 - 🔐 Offline capable
+- 📱 controls phone
 
 ## 🛠 Tech Stack
 - Python
 - Vosk
 - Ollama
 - pyttsx3
+- adb
 
 ## 📦 Installation
 
