@@ -10,8 +10,12 @@ import os
 # -------------------
 # CONFIG
 # -------------------
-DEVICE = "192.168.29.102:5555"
-VOSK_MODEL_PATH = r"C:\Users\Viraj\OneDrive\Documents\NOTES\Dynamic\jARVIS OLLAMA\vosk-model-small-en-us-0.15"
+
+#OPEN CMD ----> 1. adb tcpip 5555
+#               2. connect your phone using usb 
+#               3. adb connect "your_ip-address:5555"
+DEVICE = "YOUR_IP_ADDRESS:5555"
+VOSK_MODEL_PATH = r"ADD_YOUR_PATH"
 
 # -------------------
 # INIT
@@ -31,7 +35,6 @@ def ask_ollama(prompt):
     try:
         response = requests.post(url, json=payload, timeout=120)
         data = response.json()
-        # print(response.text)   <-- REMOVE THIS
         return data.get("response", "No response from Ollama, Sir.")
     except Exception as e:
         return f"Ollama API error: {e}"
