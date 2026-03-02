@@ -1,0 +1,24 @@
+Jarvis: Jarvis is online, Sir.
+Type your command (voice optional). Type 'exit' to quit.
+
+Traceback (most recent call last):
+  File "C:\Users\Viraj\OneDrive\Documents\NOTES\Dynamic\jARVIS OLLAMA\jarvis_voice_controlled.py", line 167, in <module>
+    user_input = input("You: ").strip()
+                 ~~~~~^^^^^^^^^
+RuntimeError: lost sys.stdin
+Jarvis: Jarvis is online, Sir.
+Type your command (voice optional). Type 'exit' to quit.
+
+Traceback (most recent call last):
+  File "C:\Users\Viraj\OneDrive\Documents\NOTES\Dynamic\jARVIS OLLAMA\jarvis_voice_controlled.py", line 168, in <module>
+    user_input = input("You: ").strip()
+                 ~~~~~^^^^^^^^^
+RuntimeError: lost sys.stdin
+Jarvis: Jarvis is online, Sir.
+Type your command (voice optional). Type 'exit' to quit.
+
+Traceback (most recent call last):
+  File "C:\Users\Viraj\OneDrive\Documents\NOTES\Dynamic\jARVIS OLLAMA\jarvis_voice_controlled.py", line 168, in <module>
+    user_input = input("You: ").strip()
+                 ~~~~~^^^^^^^^^
+RuntimeError: lost sys.stdin
