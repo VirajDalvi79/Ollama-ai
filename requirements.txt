@@ -1,0 +1,6 @@
+vosk==0.3.45
+pyttsx3==2.99
+sounddevice==0.5.2
+ollama==0.5.1
+python-dotenv==1.1.0
+requests==2.32.3
